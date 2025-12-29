@@ -1,34 +1,37 @@
-[
-  {
-  "softwareType": 0,
-  "latest": {
-    "version": "1.2.0",
-    "filename": "Main_1.2.0.bin",
-    "releaseNotes": "Main Test"
+{
+  "manifest_version": 1,
+  "softwareList": [
+    {
+    "softwareTypeRawValue": 0,
+    "latest": {
+      "version": "1.2.0",
+      "filename": "Main_1.2.0.bin",
+      "releaseNotes": "Main Test"
+      }
+    },
+    {
+    "softwareTypeRawValue": 1,
+    "latest": {
+      "version": "1.2.1",
+      "filename": "Wifi_1.2.1.bin",
+      "releaseNotes": "Wifi Test"
+      }
+    },
+    {
+    "softwareTypeRawValue": 2,
+    "latest": {
+      "version": "1.2.2",
+      "filename": "BT_1.2.2.bin",
+      "releaseNotes": "BT Test"
+      }
+    },
+    {
+    "softwareTypeRawValue": 3,
+    "latest": {
+      "version": "1.2.3",
+      "filename": "BLE_1.2.3.bin",
+      "releaseNotes": "BLE Test"
+      }
     }
-  },
-  {
-  "softwareType": 1,
-  "latest": {
-    "version": "1.2.1",
-    "filename": "Wifi_1.2.1.bin",
-    "releaseNotes": "Wifi Test"
-    }
-  },
-  {
-  "softwareType": 2,
-  "latest": {
-    "version": "1.2.2",
-    "filename": "BT_1.2.2.bin",
-    "releaseNotes": "BT Test"
-    }
-  },
-  {
-  "softwareType": 3,
-  "latest": {
-    "version": "1.2.3",
-    "filename": "BLE_1.2.3.bin",
-    "releaseNotes": "BLE Test"
-    }
-  }
-]
+  ]
+}
